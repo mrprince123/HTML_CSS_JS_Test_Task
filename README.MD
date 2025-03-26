@@ -3,6 +3,8 @@
 ## Purpose
 This task is designed to assess your ability to understand and implement basic Front-End components while paying attention to detail. We aim to evaluate your knowledge of HTML, CSS, and JavaScript, along with your problem-solving approach and code structuring skills.
 
+- Hosted page URL: [Test URL](https://test.princesahni.com/)
+
 ## Important Points
 - Do as much as you can; it doesn't have to be perfect. The closer it is to the provided design, the better your chances of selection.
 - The main focus is to showcase your Front-End skills and communication ability.
@@ -47,7 +49,7 @@ This task is designed to assess your ability to understand and implement basic F
 ## How to Submit
 1. **Host your completed webpage** using a platform of your choice (e.g., GitHub Pages, Netlify, etc.).
 2. **Provide the following links:**
-   - Hosted page URL
+   - Hosted page URL: [Test URL](https://test.princesahni.com/)
    - Repository link containing your code.
 3. **Ensure your repository is well-organized** and contains only the necessary files.
 4. **Complete the submission form:** [Submission Form](#).
