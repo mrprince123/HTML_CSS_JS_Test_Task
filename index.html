@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Expandable Pricing UI</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>YAY! It's BOGO</h2>
+
+      <!-- Option 1 -->
+      <div class="option" onclick="selectOption(this, 10)">
+        <div>
+          <input type="checkbox" />
+          <span>1 Unit</span>
+          <span class="discount">10% Off</span>
+        </div>
+        <div class="price">$10.00 USD</div>
+
+        <div class="expandable">
+          <label>Size & Color</label>
+          <div>
+            <select>
+              <option>S</option>
+              <option>M</option>
+              <option>L</option>
+            </select>
+            <select>
+              <option>Black</option>
+              <option>Blue</option>
+              <option>Red</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <!-- Option 2 -->
+      <div class="option" onclick="selectOption(this, 18)">
+        <div>
+          <input type="checkbox" />
+          <span>2 Unit</span>
+          <span class="discount">20% Off</span>
+        </div>
+        <div class="price">$18.00 USD</div>
+
+        <div class="expandable">
+          <label>Size & Color</label>
+          <div>
+            <select>
+              <option>S</option>
+              <option>M</option>
+              <option>L</option>
+            </select>
+            <select>
+              <option>Black</option>
+              <option>Blue</option>
+              <option>Red</option>
+            </select>
+          </div>
+          <div>
+            <select>
+              <option>S</option>
+              <option>M</option>
+              <option>L</option>
+            </select>
+            <select>
+              <option>Black</option>
+              <option>Blue</option>
+              <option>Red</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <!-- Option 3 -->
+      <div class="option" onclick="selectOption(this, 24)">
+        <div>
+          <input type="checkbox" />
+          <span>3 Unit</span>
+          <span class="discount">30% Off</span>
+        </div>
+        <div class="price">$24.00 USD</div>
+
+        <div class="expandable">
+          <label>Size & Color</label>
+          <div>
+            <select>
+              <option>S</option>
+              <option>M</option>
+              <option>L</option>
+            </select>
+            <select>
+              <option>Black</option>
+              <option>Blue</option>
+              <option>Red</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <!-- Total Price Display -->
+      <div class="bottom-price-section">
+        <div class="free-delivery">Free Delivery</div>
+        <div class="total">Total: $0.00 USD</div>
+      </div>
+
+      <!-- Add to Cart -->
+      <div class="add-to-cart">+ Add to Cart</div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>

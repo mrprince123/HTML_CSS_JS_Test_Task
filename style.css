@@ -1,0 +1,105 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 350px;
+}
+
+h2 {
+  text-align: center;
+  color: #e91e63;
+}
+
+.option {
+  border: 2px solid #ddd;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.option.active {
+  border-color: #e91e63;
+  background: #ffe4ec;
+}
+
+.discount {
+  display: inline-block;
+  background: #e91e63;
+  color: white;
+  padding: 3px 6px;
+  font-size: 12px;
+  border-radius: 4px;
+  margin-left: 10px;
+}
+
+.price {
+  font-weight: bold;
+  color: #e91e63;
+  font-size: 18px;
+}
+
+.expandable {
+  display: none;
+  margin-top: 10px;
+}
+
+.option.active .expandable {
+  display: block;
+}
+
+select {
+  width: 48%;
+  padding: 5px;
+  margin: 5px 0;
+}
+
+.total {
+  text-align: center;
+  font-size: 18px;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.free-delivery {
+  text-align: center;
+  color: #e91e63;
+  font-weight: bold;
+  display: none;
+}
+
+.add-to-cart {
+  display: block;
+  background: #e91e63;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.bottom-price-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+input[type="checkbox"] {
+  accent-color: #e91e63; /* Change checkbox color */
+}
+
+
